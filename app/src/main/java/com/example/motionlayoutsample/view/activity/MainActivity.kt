@@ -1,7 +1,8 @@
-package com.example.motionlayoutsample
+package com.example.motionlayoutsample.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.motionlayoutsample.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
