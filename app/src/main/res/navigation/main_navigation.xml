@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_topFragment_to_practiceFragment"
             app:destination="@id/practiceFragment" />
+        <action
+            android:id="@+id/action_topFragment_to_example2Fragment"
+            app:destination="@id/example2Fragment" />
     </fragment>
     <fragment
         android:id="@+id/example1Fragment"
@@ -22,4 +25,8 @@
         android:id="@+id/practiceFragment"
         android:name="com.example.motionlayoutsample.view.fragment.PracticeFragment"
         android:label="PracticeFragment" />
+    <fragment
+        android:id="@+id/example2Fragment"
+        android:name="com.example.motionlayoutsample.view.fragment.Example2Fragment"
+        android:label="Example2Fragment" />
 </navigation>

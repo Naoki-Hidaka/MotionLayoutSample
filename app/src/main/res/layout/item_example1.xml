@@ -14,7 +14,7 @@
     <androidx.constraintlayout.motion.widget.MotionLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        app:layoutDescription="@xml/item_cardview_scene">
+        app:layoutDescription="@xml/item_example1_scene">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
