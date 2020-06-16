@@ -18,6 +18,7 @@ val listItemRepository = MutableLiveData(
         Pair("Example4", "Hierarchy in Design Elements and Operations"),
         Pair("Example5", "Quick and agile visuals"),
         Pair("Example6", "System state"),
-        Pair("Example7", "Fun Animation")
+        Pair("Example7", "Fun Animation"),
+        Pair("Practice", "To Practice")
     )
 )

@@ -39,6 +39,11 @@ class TopFragment : Fragment() {
                 it.listItem = viewModel.animationList.value?.get(position)
                 it.lifecycleOwner = viewLifecycleOwner
                 it.isLast = (itemCount - 1) == position
+                it.navDirections = when(position) {
+                    0 -> TopFragmentDirections.actionTopFragmentToExample1Fragment()
+                    7 -> TopFragmentDirections.actionTopFragmentToPracticeFragment()
+                    else -> null
+                }
             }
         }
 

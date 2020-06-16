@@ -6,5 +6,20 @@
     <fragment
         android:id="@+id/topFragment"
         android:name="com.example.motionlayoutsample.view.fragment.TopFragment"
-        android:label="TopFragment" />
+        android:label="TopFragment" >
+        <action
+            android:id="@+id/action_topFragment_to_example1Fragment"
+            app:destination="@id/example1Fragment" />
+        <action
+            android:id="@+id/action_topFragment_to_practiceFragment"
+            app:destination="@id/practiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/example1Fragment"
+        android:name="com.example.motionlayoutsample.view.fragment.Example1Fragment"
+        android:label="Example1Fragment" />
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.example.motionlayoutsample.view.fragment.PracticeFragment"
+        android:label="PracticeFragment" />
 </navigation>
