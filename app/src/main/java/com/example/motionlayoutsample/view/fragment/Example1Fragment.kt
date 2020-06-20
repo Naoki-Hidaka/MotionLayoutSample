@@ -6,11 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.motionlayoutsample.R
-import com.example.motionlayoutsample.databinding.FragmentExample1Binding
-import com.example.motionlayoutsample.databinding.ItemCardviewBinding
 import com.example.motionlayoutsample.viewmodel.SwipeableListViewModel
 
 class Example1Fragment : Fragment() {
@@ -22,7 +18,7 @@ class Example1Fragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.item_cardview, container, false)
+        return inflater.inflate(R.layout.item_example1, container, false)
     }
 
     /*

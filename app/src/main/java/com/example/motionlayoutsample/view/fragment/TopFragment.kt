@@ -41,6 +41,7 @@ class TopFragment : Fragment() {
                 it.isLast = (itemCount - 1) == position
                 it.navDirections = when(position) {
                     0 -> TopFragmentDirections.actionTopFragmentToExample1Fragment()
+                    1 -> TopFragmentDirections.actionTopFragmentToExample2Fragment()
                     7 -> TopFragmentDirections.actionTopFragmentToPracticeFragment()
                     else -> null
                 }

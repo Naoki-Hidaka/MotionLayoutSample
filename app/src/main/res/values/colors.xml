@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="background_gray">#e0e0e0</color>
-    <color name="cardview_color">#64b5f6</color>
+    <color name="cardview_color">#b3e5fc</color>
+    <color name="yellow">#fff9c4</color>
+    <color name="pink">#ffcdd2</color>
+    <color name="purple">#e1bee7</color>
+    <color name="vividPink">#f48fb1</color>
 </resources>
