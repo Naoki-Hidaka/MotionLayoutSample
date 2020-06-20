@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.motionlayoutsample.R
-import com.example.motionlayoutsample.databinding.ItemCardviewBinding
 import com.example.motionlayoutsample.viewmodel.SwipeableListViewModel
 
 class Example1Fragment : Fragment() {
