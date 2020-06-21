@@ -37,9 +37,16 @@ fun View.slideIn(delay: Long) {
     }, delay)
 }
 
-fun FloatingActionButton.popUpButton(delay: Long, alpha: Float) {
+fun View.popUpButton(delay: Long) {
+    val animator = AnimationUtils.loadAnimation(context, R.anim.popup_button)
     postDelayed({
-        this.alpha = alpha
-        show()
+        startAnimation(animator)
+        visibility = View.VISIBLE
     }, delay)
+}
+
+fun View.shrinkingButton() {
+    visibility = View.INVISIBLE
+    val animator = AnimationUtils.loadAnimation(context, R.anim.shrinking_button)
+    startAnimation(animator)
 }
